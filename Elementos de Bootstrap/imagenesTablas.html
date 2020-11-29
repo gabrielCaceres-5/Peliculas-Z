@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--Meta viewport te permite crear paginas responsives-->
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+		<title>Columnas Anidadas	</title>
+		<style>
+			body
+			{
+				background: #fff;
+			}
+			.container
+			{
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			.row
+			{
+				padding: 10px;
+				margin-top: 1px;
+				margin-bottom: 1px;
+				
+			}
+			.columna
+			{
+				color: #000;
+				padding: 5px;
+				margin-top: 1px;
+				margin-bottom: 1px;
+				
+			
+			}
+			h1,h2,h3
+			{
+				text-align: center;
+
+			}
+			.titulo
+			{
+				font-size: 31px;
+			}
+			.form_comentarios textarea
+			{
+				width: 100%;
+				max-width: 100%;
+				min-width: 100%;
+				min-height: 84px;
+				max-height: 300px;
+				padding: 10px;
+				line-height: 30px;
+				border: 1px solid #888;
+				margin-bottom: 20px;
+			}
+			.form_comentarios button
+			{
+				padding: 3px;
+				transition: .5s;
+				background: #000;
+			}
+			.form_comentarios button:hover
+			{
+				background: #000;
+				box-shadow: 0px 0px 9px rgba(0,0,0.35)
+			}
+			.form_comentarios button:focus
+			{
+				outline: none;
+				background: #000;
+				box-shadow: 0px 0px 9px rgba(0,0,0.35)
+			}
+			.media
+			{
+				padding-top: 10px;
+			}
+			.media .botones a
+			{
+				color: #acacac;
+				font-size: 14px;
+				margin-left: 20px;
+				margin-right: 20px;
+			}
+			#border
+			{
+				border: solid 1px #aaa;
+			}
+		</style>
+	</head>
+
+	<body> 
+		
+		<div class="container">
+			
+			<header class="row no-gutters">
+				<div class="columna col-12">
+					<h1 class="titulo">La <kbd>evolución</kbd> del ser <strong class="text-uppercase">humano</strong></h1>
+				</div>
+				<div class="columna col-12">
+					<img class="img-fluid" src="../img/evolution.jpg">
+				</div>
+			</header>
+			<hr>
+			<section class="row no-gutters justify-content-center">
+				<div class="columna col-12 d-block d-lg-none ">
+					<h4><strong>Historia resumida.</strong></h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="columna col-12 d-none d-lg-block ">
+					<h4><strong>Historia.</strong></h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="columna col-12 col-lg-9">
+					<button class="btn-block btn btn-dark btn-lg mb-1">Charles Darwin</button>
+					<img class="img-fluid" src="../img/Dar.jpg">
+				</div>
+				<div class="columna col-12 col-md-6 col-lg-4 border p-3 mt-3">
+					<h4>Australopithecus</h4>
+					<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a href="#" class="btn btn-dark float-right" >Click aquí</a>
+				</div>
+				<div class="columna col-12 col-md-6 col-lg-4 border p-3 mt-3">
+					<h4>Homo abilis</h4>
+					<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a href="#" class="btn btn-dark float-right" >Click aquí</a>
+				</div>
+				<div class="columna col-12 col-md-6 col-lg-4 border p-3 mt-3">
+					<h4>Homo erectus</h4>
+					<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a href="#" class="btn btn-dark float-right" >Click aquí</a>
+				</div>
+				<div class="columna col-12 col-md-6 col-lg-6 border p-3 mt-3">
+					<h4>Homo Neandertal</h4>
+					<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a href="#" class="btn btn-dark float-right" >Click aquí</a>
+				</div>
+				<div class="columna col-12 col-lg-6 border p-3 mt-3">
+					<h4>Homo sapiens</h4>
+					<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a href="#" class="btn btn-dark float-right" >Click aquí</a>
+				</div>
+				<div class="columna col-12 mt-3">
+					<h5><strong>Comentarios</strong></h5>
+				</div>
+				<div class="columna col-8">
+					<form class="form_comentarios mt-2  justify-content-center">
+						<textarea placeholder="comentario"></textarea>
+						<button class="btn-dark float-right mb-2" type="button">Comentar</button>
+					</form>
+				</div>
+				<div class="columna col-12">
+					<hr>
+					<div class="media">
+						<img src="../img/Darwin.jpg" class="d-flex align-self-start mr-2" height="64" width="64">
+						<div class="media-body">
+							<h4 class="mt-0">Teoria evolutiva.</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<div class="botones text-right">
+								<a href="#">Responder</a>
+								<a href="#">Editar</a>
+								<a href="#">Borrar</a>
+							</div>
+							<hr>
+						<div class="media">
+							<img src="../img/jesus.jpg" class="d-flex align-self-start mr-2" height="64" width="64">
+							<div class="media-body">
+								<h4 class="mt-0">Darwin se equivoca.</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<div class="botones text-right">
+									<a href="#">Responder</a>
+									<a href="#">Editar</a>
+									<a href="#">Borrar</a>
+								</div>
+								<hr>
+							</div>
+						</div>
+						<div class="media">
+							<img src="../img/diablo.jpg" class="d-flex align-self-start mr-2" height="64" width="64">
+							<div class="media-body">
+								<h4 class="mt-0">Jesus no existimos.</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<div class="botones text-right">
+									<a href="#">Responder</a>
+									<a href="#">Editar</a>
+									<a href="#">Borrar</a>
+								</div>
+								<hr>
+							</div>
+						</div>
+						<div class="media">
+							<img src="../img/newton.jpg" class="d-flex align-self-start mr-2" height="64" width="64">
+							<div class="media-body">
+								<h4 class="mt-0">Clases de calculo.</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<div class="botones text-right">
+									<a href="#">Responder</a>
+									<a href="#">Editar</a>
+									<a href="#">Borrar</a>
+								</div>							
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<hr>
+			<section class="row no-gutters justify-content-center">
+				<div class="columna col-12">
+					<h4><strong>Australopithecus  </strong><span class="badge badge-dark">1° Etapa</span></h4>
+				</div>
+				<div class="columna col-12 text-justify">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<button disabled class="btn btn-secondary">"Lucy fue la primera Austrolophitecus"</button>
+				</div>
+				<div class="columna col-12 col-xl-10 ">
+					<img class="img-fluid w-100" src="../img/austra2.jpg">
+					<button class="btn btn-dark btn-lg btn-block mt-1">EL AUSTROLOPITHECUS</button>
+				</div>
+
+				<div class="columna col-12 col-md-6 col-lg-4 mt-3 mb-0 border p-3">
+					<h4>Tranquilo</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a class="btn btn-outline-dark float-right" href="#">Click aquí</a>
+				</div>
+				<div class="columna col-12 col-md-6 col-lg-4 mt-3 mb-0 border p-3">
+					<h4>Agresivo</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a class="btn btn-outline-dark float-right" href="#">Click aquí</a>
+				</div>
+				<div class="columna col-12 col-lg-4 mt-3 mb-0 border p-3">
+					<h4>Focalizado</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a class="btn btn-outline-dark float-right" href="#">Click aquí</a>
+				</div>
+
+
+				<div class="columna col-12 mt-3 mb-3">
+
+					<!-- table-dark nos permite cambiar los colores de la tabla a oscuros -->
+					<!-- table-stripped nos permite alternar los colores entre cada fila -->
+					<!-- table-bordered nos permite agregarle bordes a la tabla -->
+					<!-- table-hover nos permite agregarle un hover a las filas-->
+					<!-- table-sm -->
+					<!-- table-responsive -->
+
+					<table class="table table-responsive-lg table-lg table-hover table-bordered mb-0">
+						<thead>
+							<tr>
+								<th>Reino</th>
+								<th>Filo</th>
+								<th>Clase</th>
+								<th>Orden</th>
+								<th>Familia</th>
+								<th>SubFamilia</th>
+								<th>Tribu</th>
+								<th>Subtribu</th>
+								<th>Género</th>
+							</tr>					
+						</thead>
+						<tr>
+							<td>Animalia</td>
+							<td>Chordata</td>
+							<td>Mammalia</td>
+							<td>Primates</td>
+							<td>Hominidae</td>
+							<td>Homininae</td>
+							<td>Hominini</td>
+							<td>Hominina</td>
+							<td>Australopithecus</td>	
+						</tr>
+					</table>
+				</div>
+				<div class="columna col-12 col-lg-10 col-xl-8">
+					<div class="alert alert-dark mb-0"><p class="mb-0">Si deseas aprender mas sobre esta interesantisima criatura:<button class=" d-none d-md-inline btn btn-dark ml-3"><a href="#" class="text-light">Click aqui</a><span class="badge badge-dark ml-1">10</span></button></p></div>
+					<button class="btn btn-dark mt-2 float-right d-block d-md-none"><a href="#" class="text-light">Click aquí <span class="badge badge-dark ml-1">10</span></a></button>
+				</div>
+				<div class="columna col-12 col-lg-10 col-xl-8 mt-2 mb-2">
+					<img class="img-fluid w-100" src="../img/austra3.jpg">
+				</div>
+
+				<div class="columna col-12">
+					<div class="card">
+						<div class="card-header">
+							<h5>La criatura dominante.</h5>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title text-center">Habian muchos peligros</h5>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<a href="#" class="btn btn-secondary">Click aquí si quisieras una manada</a>
+						</div>
+						<div class="card-footer">
+							<h5>Habia que mantenerse unidos.</h5>
+						</div>
+						<div class="row no-gutters justify-content-center">
+							<div class="columna col-12 col-md-10">
+								<img src="../img/austra5.jpg" class="img-fluid w-100">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="columna col-12 text-light">
+					<div class="card border-secondary bg-dark">
+						<div class="card-body">
+							<h5 class="card-title text-primary">El Australophitecus es lo que va despues de un mono bipade.</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<a href="#" class="btn btn-outline-light">Evolución</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="columna col-12">
+					<div class="card">
+						<div class="card-header">
+							<h5 class="mt-1">La evolución estaba en camino.</h5>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title text-center">Los Austrolopithecus sobrevivieron en manada</h5>
+							<p class="card-subtitle text-muted mt-2 mb-2">Todos se protegian.</p>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+						<div class="row no-gutters justify-content-center">
+							<div class="columna col-12 col-md-7">
+								<img src="../img/austra4.jpg" class="img-fluid w-100">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="columna col-12 col-lg-10 col-xl-8">
+					<div class="alert alert-dark mb-0" id="alerta">
+						El australopithecus es la <strong>primera</strong> etapa evolutiva...
+						<button type="button" class="close" data-dismiss="alert" aria-label="Cerrar	">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<hr>
+
+			<section class="row no-gutters">
+				
+				<div class="columna col-12">
+					<h4><strong>Homo Abilis   </strong><span class="badge badge-dark">2° Etapa</span></h4>
+				</div>
+
+				<div class="columna col-12">
+					<div class="card">
+						<div class="card-header">Un primate particular.</div>
+						<div class="card-body">
+							<h4 class="card-title">El homo abilis era abilidoso.</h4>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+						<div class="card-footer">Le gustaban las rocas.</div>
+					</div>
+				</div>
+
+				<div class="columna col-12 p-0">
+					<div class="card">
+						<div class="card-header"><h4>Herramientas</h4></div>
+						<div class="card-body">
+							<h4 class="card-title">Tenia distintas herramientas.</h4>
+							<div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+						</div>
+						<div class="row no-gutters justify-content-center">
+							<div class="columna col-12 col-md-6">
+								<img src="../img/homoAbilis.jpg" class="card-image-bottom img-fluid w-100">
+								<div class="row no-gutters mt-0 mb-0" id="border">
+									<div class="col col-12">
+										<h4 class="mb-0">Sabia fabricarlas</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="columna col-12 col-lg-4">
+					<div class="card">
+						<div class="card-header"><h4>Palo</h4></div>
+						<div class="card-body">
+							<h4></h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<div class="row">
+								<div class="columna col-12">
+										<div class="card">
+									<div class="card-header">
+											<h4>Una herramienta</h4>
+										</div>
+										<div class="card-footer">
+											<h4>Un arma</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="columna col-12 col-lg-4">
+					<div class="card">
+						<div class="card-header"><h4>Roca</h4></div>
+						<div class="card-body">
+							<h4></h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<div class="row no-gutters">
+								<div class="columna col-12"><img src="../img/roca.jpg" class="img-fluid w-100"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="columna col-12 col-lg-4">
+					<div class="card">
+						<div class="card-header"><h4>Lanza</h4></div>
+						<div class="card-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<div class="row">
+								<div class="columna col-12">
+										<div class="card">
+									<div class="card-header">
+											<h4>Un arma</h4>
+										</div>
+										<div class="card-footer">
+											<h4>Una herramienta</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="columna col-12">
+					<div class="card">
+						<div class="card-header"><h5>Paisajes herrmosos recorridos por el Homo Abilis.</h5></div>
+					</div>
+				</div>
+
+				<div class="columna col-12">
+					<div class="card-columns">
+						<div class="card p-2">
+							<img src="../img/Africa.jpg" class="img-fluid w-100">
+							<h4 class="p-2 text-center" id="border">Africa</h4>
+							<a href="#" class="btn btn-dark btn-block btn-lg">Click aquí</a>
+						</div>	
+						<div class="card p-2">
+							<img src="../img/Africa2.jpg" class="img-fluid w-100">
+							<h4 class="p-2 text-center" id="border">Africa</h4>
+							<a href="#" class="btn btn-dark btn-block btn-lg">Click aquí</a>
+						</div>	
+						<div class="card p-2">
+							<img src="../img/A.jpg" class="img-fluid w-100">
+							<h4 class="p-2 text-center" id="border">Africa</h4>
+							<a href="#" class="btn btn-dark btn-block btn-lg">Click aquí</a>
+						</div>	
+						<div class="card p-2">
+							<img src="../img/Africa3.jpg" class="img-fluid w-100">
+							<h4 class="p-2 text-center" id="border">Africa</h4>
+							<a href="#" class="btn btn-dark btn-block btn-lg">Click aquí</a>
+						</div>	
+						<div class="card p-2">
+							<img src="../img/Africa4.jpg" class="img-fluid w-100">
+							<h4 class="p-2 text-center" id="border">Africa</h4>
+							<a href="#" class="btn btn-dark btn-block btn-lg">Click aquí</a>
+						</div>	
+						<div class="card p-2">
+							<img src="../img/Africa5.jpg" class="img-fluid w-100">
+							<h4 class="p-2 text-center" id="border">Africa</h4>
+							<a href="#" class="btn btn-dark btn-block btn-lg">Click aquí</a>
+						</div>	
+					</div>
+				</div>
+
+			<div class="columna col-12 mt-3">
+				<div class="carousel slide" id="principal-carousel" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#principal-carousel" data-slid-to="0" class="active"></li>
+						<li data-target="#principal-carousel" data-slid-to="1"></li>
+						<li data-target="#principal-carousel" data-slid-to="2"></li>
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="../img/paisaje.jpg" class="w-100 img-fluid" alt="">
+						</div>
+						<div class="carousel-item">
+							<img src="../img/paisaje2.jpg" alt="" class="img-fluid w-100">
+						</div>
+						<div class="carousel-item">
+							<img src="../img/paisaje3.jpg" alt="" class="img-fluid w-100">
+						</div>
+					</div>
+
+					<a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span>
+					</a>
+
+					<a href="#principal-carousel" class="carousel-control-next" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Siguiente</span>
+					</a>
+				</div>
+			</div>
+
+		</section>
+
+		</div>
+		
+		<script type="text/javascript" src="../js/jquery-3.5.1.min.js"></script>
+		<script type="text/javascript" src="../js/popper.min.js"></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+
+	</body>
+
+</html>

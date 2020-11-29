@@ -1,0 +1,144 @@
+
+/*Sección de comentarios*/
+
+.formComentarios textarea
+{
+	width: 100%;
+	height: 84px;
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 84px;
+	max-height: 300px;
+	padding: 10px;
+	line-height: 30px;
+	border: 2px solid #05a;
+	margin-bottom: 20px;
+	background: #000;
+	color: #fff;
+}
+
+.botonesA
+{
+	text-decoration: none!important;
+}
+
+.media
+{
+	border-top: 1px solid #aaa;
+	padding-top: 50px;
+}
+
+/*Creadores ò portafolio de mi mismo*/
+
+#titulo
+{
+	font-size: 20px;
+}
+
+.icono
+{
+	font-size: 20px;
+}
+
+/* Portafollio */
+
+.portafolio
+{
+	border-top: 2px solid #00a;
+	padding: 0 20px;
+}
+
+.portafolio .galeria .contenedor-imagen
+{
+	margin-bottom: 40px;
+	max-height: 155px;
+	overflow: hidden;
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px)
+{
+
+	.portafolio .galeria .contenedor-imagen
+	{
+		max-height: 200px;
+	}
+
+}
+
+@media screen and (max-width: 575px)
+{
+
+	.portafolio .galeria .contenedor-imagen
+	{
+		max-height: 250px;
+	}
+
+}
+
+.portafolio .galeria .contenedor-imagen a
+{
+	background: #111;
+	display: inline-block;
+}
+
+.portafolio .galeria .contenedor-imagen:hover img
+{
+	opacity: .3;
+	transition: .3s;
+}
+
+.portafolio .modal-dialog
+{
+	margin: 0px auto;
+	height: 100%;
+	max-width: 600px;
+}
+
+@media screen and (max-width: 700px)
+{
+	.portafolio .modal-dialog
+	{
+		max-width: 500px;
+	}	
+}
+
+
+.bar
+{
+	height: 22.5px;
+}
+
+#menu2
+{
+	margin-top: 90px;
+}
+
+#AJCO
+{
+	font-size: 18px;
+}
+
+@media screen and (max-width: 575px)
+{
+	#X
+	{
+		margin-top: 100px;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px)
+{
+	#X
+	{
+		margin-top: 110px;
+	}
+}
+
+@media screen and (min-width: 1200px)
+{
+	#X
+	{
+		margin-top: 10px;
+		margin-bottom: 100px;
+	}
+}

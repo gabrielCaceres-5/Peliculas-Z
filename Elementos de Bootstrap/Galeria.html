@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Galeria</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/b65f887159.js" crossorigin="anonymous"></script>
+	<style type="text/css">
+		h1,h2,h3,h4,h5,h6,a
+		{
+			font-family: 'Goldman', cursive;
+		}
+		p
+		{
+			font-family: 'Roboto', sans-serif;
+		}
+		#mas
+		{
+			border: 2px solid #06a;
+			padding-top: 10px;
+			padding-bottom: 5px;
+			background: #000;
+			color: #aaa;
+		}
+		.bg-dark, .btn-dark
+		{
+			background: #000!important;
+		}
+		.bg-secondary, .badge-secondary
+		{
+			background: #111!important;
+		}
+		.text-z
+		{
+			color: #53CEF7;
+		}
+		.justLikeThat
+		{
+			border: 1px solid #03a;
+		}
+		.justLikeThat2
+		{
+			border: 1px solid #09a;
+		}
+		.justLikeThat3
+		{
+			border: 1px solid #500;
+		}
+		.justLikeThat4
+		{
+			border: 1px solid #a0a;
+		}
+		#hover:hover
+		{
+			background: #05a!important;
+			border: 1px solid #000!important;
+			color: #fff!important;
+		}
+		#hover:focus
+		{
+			background: #05a!important;
+			border: 1px solid #000!important;
+			color: #fff!important;
+		}
+		.text-blood
+		{
+			color: #900!important;
+		}
+		.border-purple
+		{
+			border: 1px solid #a0a;
+		}
+		.text-purple
+		{
+			color: #a0a;
+		}
+		.btn-outline-blood
+		{
+			border: 1px solid #a00;
+			color: #a00;
+			background: #000;
+		}
+		.btn-outline-blood:hover
+		{
+			background: #a00;	
+			color: #000;
+		}
+		.btn-outline-purple
+		{
+			border: 1px solid #a0a;
+			color: #a0a;
+			background: #000;
+		}
+		.btn-outline-purple:hover
+		{
+			background: #a0a;	
+			color: #000;
+		}
+		#imagenGaleria
+		{
+			transition: .5s;
+		}
+		#imagenGaleria:hover
+		{
+			opacity: .9;
+			cursor: pointer;
+		}
+		#navItem
+		{
+			font-size: 18px;
+			margin-left: 10px;
+		}
+		#navTitle
+		{
+			font-size: 25px;
+		}
+		#icon
+		{
+			font-size: 50px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body class="bg-secondary">
+
+	<!--Navbar-->
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+		<div class="container">
+
+			<a href="#" id="navTitle" class="navbar-brand text-primary">Peliculas <span class="text-z">Z</span></a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a href="Cine.html" id="navItem" class="nav-link">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a href="galeria.html" id="navItem" class="nav-link active">Galería</a>
+					</li>
+					<li class="nav-item">
+						<a href="acerca.html" id="navItem" class="nav-link">Acerca</a>
+					</li>
+					<li class="nav-item">
+						<a href="contactanos.html" id="navItem" class="nav-link">Contactanos</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" id="navItem" class="nav-link">Creadores</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<!--Carousels sliders-->
+	
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-12 mt-3">
+				<div class="carousel slide" id="principal-carousel" data-ride="carousel"">
+					<ol class="carousel-indicators">
+						<li data-target="#principal-carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#principal-carousel" data-slide-to="1"></li>
+						<li data-target="#principal-carousel" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active"><img src="../img/imagen1.jpg" class="img-fluid w-100"></div>
+						<div class="carousel-item"><img src="../img/imagen2.jpg" class="img-fluid w-100"></div>
+						<div class="carousel-item"><img src="../img/imagen3.jpg" class="img-fluid w-100"></div>
+					</div>
+					<a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span>
+					</a>
+					<a href="#principal-carousel" class="carousel-control-next" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Siguiente</span>
+					</a>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<div class="col-12 mt-3">
+				<div class="carousel slide" id="secondary-carousel" data-ride="carousel"">
+					<ol class="carousel-indicators">
+						<li data-target="#secondary-carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#secondary-carousel" data-slide-to="1"></li>
+						<li data-target="#secondary-carousel" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active"><img src="../img/imagen4.jpg" class="img-fluid w-100"></div>
+						<div class="carousel-item"><img src="../img/imagen5.jpg" class="img-fluid w-100"></div>
+						<div class="carousel-item"><img src="../img/imagen6.jpg" class="img-fluid w-100"></div>
+					</div>
+					<a href="#secondary-carousel" class="carousel-control-prev" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span>
+					</a>
+					<a href="#secondary-carousel" class="carousel-control-next" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Siguiente</span>
+					</a>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="jumbotron bg-dark mt-5 justLikeThat">
+		<div class="container">
+			<h2 class="text-primary text-center display-4">Galería</h2>
+		</div>
+	</div>
+
+	<!-- Grid de imagenes -->
+
+	<div class="container">
+
+		<div class="row my-3">
+
+			<div class="col-12">
+				<div class="card-columns">
+					<div class="card border-info">
+						<img src="../img/imagen7.jpg" id="imagenGaleria" class="card-img-top img-fluid w-100" data-toggle="modal" data-target="#WallE">
+						<div class="card-body bg-dark">
+							<h5 class="card-title text-primary">Wall - E</h5>
+						</div>
+						<div class="modal fade" id="WallE" tabindex="-1" role="dialog" aria-label="WallE" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<img src="../img/imagen7.jpg" class="img-fluid w-100">
+									<div class="modal-body bg-dark justLikeThat2">
+										<h2 class="text-primary">Wall - E</h2>
+										<p class="text-light">La trama sigue a un robot de la línea WALL•E, diseñada para limpiar la basura que cubre a la Tierra después de que fuese devastada y abandonada por el ser humano en un futuro lejano.</p>
+										<button class="btn btn-outline-primary float-right ml-3" data-dismiss="modal" >Cerrar</button>
+										<button class="btn btn-outline-primary float-right">Ver pelicula</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card border-info">
+						<img src="../img/imagen8.jpg" id="imagenGaleria" class="card-img-top img-fluid w-100" data-toggle="modal" data-target="#star">
+						<div class="card-body bg-dark">
+							<h5 class="card-title text-primary">Star Wars</h5>
+						</div>
+						<div class="modal fade" id="star" tabindex="-1" role="dialog" aria-label="star" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<img src="../img/imagen8.jpg" class="img-fluid w-100">
+									<div class="modal-body bg-dark justLikeThat2">
+										<h2 class="text-primary">Star Wars IX</h2>
+										<p class="text-light">La Resistencia sobreviviente se enfrenta a la Primera Orden, y Rey, Finn, Poe y el resto de los héroes encararán nuevos retos y una batalla final con la sabiduría de las generaciones anteriores.</p>
+										<button class="btn btn-outline-primary float-right ml-3" data-dismiss="modal" >Cerrar</button>
+										<button class="btn btn-outline-primary float-right">Ver pelicula</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card border-purple">
+						<img src="../img/Transformer.jpg" id="imagenGaleria" class="card-img-top img-fluid w-100" data-toggle="modal" data-target="#tran">
+						<div class="card-body bg-dark">
+							<h5 class="card-title text-purple">Transform</h5>
+						</div>
+						<div class="modal fade" id="tran" tabindex="-1" role="dialog" aria-label="tran" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<img src="../img/Transformer.jpg" class="img-fluid w-100">
+									<div class="modal-body bg-dark justLikeThat4">
+										<h2 class="text-purple">Transformers</h2>
+										<p class="text-light">Dos razas de robots extraterrestres están en guerra. Mientras que los autobots creen en la tolerancia, los decepticons desean exterminar la vida biológica. Cuando la batalla llega hasta la Tierra, el humano Sam Witwicky empezará su particular lucha.</p>
+										<button class="btn btn-outline-purple float-right ml-3" data-dismiss="modal" >Cerrar</button>
+										<button class="btn btn-outline-purple float-right">Ver pelicula</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card border-info">
+						<img src="../img/imagen9.jpg" id="imagenGaleria" data-toggle="modal" data-target="#coldModal" class="card-img-top img-fluid w-100">
+						<div class="card-body bg-dark">
+							<h5 class="card-title text-primary">Winter</h5>
+						</div>
+						<div class="modal fade" id="coldModal" tabindex="-1" role="dialog" aria-label="coldModal" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<img src="../img/imagen9.jpg" class="img-fluid w-100">
+									<div class="modal-body bg-dark justLikeThat2">
+										<h2 class="text-primary">Winter</h2>
+										<p class="text-light">Historia ubicada en el 2021, en donde una chica llamada Winter se anima a pasar una noche de invierno en una gelida ciudad, la cual es conocida por tener las temperaturas mas bajas del mundo antes de Antartida.</p>
+										<button class="btn btn-outline-info float-right ml-3" data-dismiss="modal" >Cerrar</button>
+										<button class="btn btn-outline-info float-right">Ver pelicula</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card border-danger">
+						<img src="../img/imagen10.jpg" id="imagenGaleria" class="card-img-top img-fluid w-100" data-toggle="modal" data-target="#wason">
+						<div class="card-body bg-dark">
+							<h5 class="card-title text-blood">El WASÓN</h5>
+							<div class="modal fade" id="wason" tabindex="-1" role="dialog" aria-label="wason" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<img src="../img/imagen10.jpg" class="img-fluid w-100">
+									<div class="modal-body bg-dark justLikeThat3">
+										<h2 class="text-blood">El WASÓN</h2>
+										<p class="text-light">La pasión de Arthur Fleck, un hombre ignorado por la sociedad, es hacer reír a la gente. Sin embargo, una serie de trágicos sucesos harán que su visión del mundo se distorsione considerablemente convirtiéndolo en un brillante criminal.</p>
+										<button class="btn btn-outline-blood float-right ml-3" data-dismiss="modal" >Cerrar</button>
+										<button class="btn btn-outline-blood float-right">Ver pelicula</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="card border-info">
+						<img src="../img/imagen11.jpg" id="imagenGaleria" class="card-img-top img-fluid w-100" data-toggle="modal" data-target=#lost>
+						<div class="card-body bg-dark">
+							<h5 class="card-title text-primary">Gravity</h5>
+						</div>
+						<div class="modal fade" id="lost" tabindex="-1" role="dialog" aria-label="lost" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<img src="../img/imagen11.jpg" class="img-fluid w-100">
+									<div class="modal-body bg-dark justLikeThat2">
+										<h2 class="text-info">Gravity</h2>
+										<p class="text-light">Bullock interpreta a la doctora Ryan Stone, una brillante ingeniera especializada en medicina en su primera misión en un transbordador, con el veterano astronauta Matt Kowalsky (Clooney), al mando de su último vuelo antes de retirarse.</p>
+										<button class="btn btn-outline-primary float-right ml-3" data-dismiss="modal" >Cerrar</button>
+										<button class="btn btn-outline-primary float-right">Ver pelicula</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card border-light">
+						<img src="../img/imagen12.jpg" id="imagenGaleria" class="card-img-top img-fluid w-100" data-toggle="modal" data-target="#apes">
+						<div class="card-body bg-dark">
+							<h5 class="card-title text-light">Snow apes</h5>
+						</div>
+						<div class="modal fade" id="apes" tabindex="-1" role="dialog" aria-label="apes" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<img src="../img/imagen12.jpg" class="img-fluid w-100">
+									<div class="modal-body bg-dark">
+										<h3 class="text-light">War for the planet of the apes</h3>
+										<p class="text-light">En War for the Planet of the Apes, el tercer capítulo de esta exitosa franquicia aclamada por crítica y público, César y sus simios se ven obligados a un enfrentamiento mortal con un ejército de seres humanos comandados por un implacable Coronel.</p>
+										<button class="btn btn-outline-light float-right ml-3" data-dismiss="modal" >Cerrar</button>
+										<button class="btn btn-outline-light float-right">Ver pelicula</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card border-danger">
+						<img src="../img/imagen13.jpg" id="imagenGaleria" class="card-img-top img-fluid w-100" data-toggle="modal" data-target="#it">
+						<div class="card-body bg-dark">
+							<h5 class="card-title text-blood">Pennywise</h5>
+						</div>
+						<div class="modal fade" id="it" tabindex="-1" role="dialog" aria-label="it" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<img src="../img/imagen13.jpg" class="img-fluid w-100">
+									<div class="modal-body bg-dark justLikeThat3">
+										<h2 class="text-blood">It</h2>
+										<p class="text-light">La película cuenta la historia de siete niños marginados del municipio de Derry, Maine (EE. ... Desde que existe, Derry ha sido el coto de caza de esa entidad, que resurge de las alcantarillas cada 27 años para alimentarse de los miedos de sus presas favoritas: los niños.</p>
+										<button class="btn btn-outline-blood float-right ml-3" data-dismiss="modal" >Cerrar</button>
+										<button class="btn btn-outline-blood float-right">Ver pelicula</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card border-info">
+						<img src="../img/imagen14.jpg" id="imagenGaleria" class="card-img-top img-fluid w-100" data-toggle="modal" data-target="#ice">
+						<div class="card-body bg-dark">
+							<h5 class="card-title text-info">Silent Ice</h5>
+						</div>
+						<div class="modal fade" id="ice" tabindex="-1" role="dialog" aria-label="ice" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<img src="../img/imagen14.jpg" class="img-fluid w-100">
+									<div class="modal-body bg-dark justLikeThat2">
+										<h2 class="text-info">Silent ice</h2>
+										<p class="text-light">Hubicado en el 2021, 4 jovenes exploradores se aventuran en las heladas zonas de la antartida, pero no saben que con la naturaleza a menos de que estes muy bien preparado esta te va a dominar.</p>
+										<button class="btn btn-outline-info float-right ml-3" data-dismiss="modal" >Cerrar</button>
+										<button class="btn btn-outline-info float-right">Ver pelicula</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card border-info">
+						<img src="../img/goku.jpg" id="imagenGaleria" class="card-img-top img-fluid w-100" data-toggle="modal" data-target="#goku">
+						<div class="card-body bg-dark">
+							<h5 class="card-title text-primary">Goku</h5>
+						</div>
+						<div class="modal fade" id="goku" tabindex="-1" role="dialog" aria-label="goku" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<img src="../img/goku.jpg" class="img-fluid w-100">
+									<div class="modal-body bg-dark">
+										<h2 class="text-primary">Dragon ball - Super</h2>
+										<p class="text-light">Historia de Dragón Ball Súper. En un período pacífico después de la derrota de Kid Buu , Goku continúa intentando mantener la paz de la Tierra a pesar de ser obligado por Chi-Chi a trabajar en su granja de rábanos. Gohan y Videl están casados mientras Krilin se ha convertido en un oficial de policía.</p>
+										<button class="btn btn-outline-primary float-right ml-3" data-dismiss="modal" >Cerrar</button>
+										<button class="btn btn-outline-primary float-right">Ver pelicula</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card border-ligth">
+						<img src="../img/niko-ni.jpg" id="imagenGaleria" class="card-img-top img-fluid w-100" data-toggle="modal" data-target="#niko">
+						<div class="card-body bg-dark">
+							<h5 class="card-title text-light">Niko Ni</h5>
+						</div>
+						<div class="modal fade" id="niko" tabindex="-1" role="dialog" aria-label="niko" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<img src="../img/niko-ni.jpg" class="img-fluid w-100">
+									<div class="modal-body bg-dark">
+										<h2 class="text-light">Niko ni</h2>
+										<p class="text-light">Nico Yazawa (矢澤にこ Yazawa Niko) es una de las nueve protagonistas de Love Live! e integrante de μ's. Tiene 17 años y está en tercer año en la preparatoria Otonokizaka. Está de cumpleaños el 22 de julio y su color de imagen es el rosa. Pertenece a la sub-unidad BiBi. De repente encuentra una espada y las cosas comienzan a cambiar. </p>
+										<button class="btn btn-outline-light float-right ml-3" data-dismiss="modal" >Cerrar</button>
+										<button class="btn btn-outline-light float-right">Ver pelicula</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card border-danger">
+						<img src="../img/venom.jpg" id="imagenGaleria" class="card-img-top img-fluid w-100" data-toggle="modal" data-target="#venom">
+						<div class="card-body bg-dark">
+							<h5 class="card-title text-blood">VENOM</h5>
+						</div>
+						<div class="modal fade" id="venom" tabindex="-1" role="dialog" aria-label="venom" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<img src="../img/venom.jpg" class="img-fluid w-100">
+									<div class="modal-body bg-dark">
+										<h2 class="text-blood">Venom</h2>
+										<p class="text-light">El periodista Eddie Brock (Tom Hardy) comienza a investigar la Fundación Vida, dirigida por el científico Carlton Drake (Riz Ahmed). ... Así que, tratando de obtener evidencias de un extraño organismo independiente llamado simbionte, una de las criaturas escapa, tomando a Eddie como huésped.</p>
+										<button class="btn btn-outline-blood float-right ml-3" data-dismiss="modal" >Cerrar</button>
+										<button class="btn btn-outline-blood float-right">Ver pelicula</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card border-info">
+						<img src="../img/gOTG.jpg" id="imagenGaleria" class="card-img-top img-fluid w-100" data-toggle="modal" data-target="#groot">
+						<div class="card-body bg-dark">
+							<h5 class="card-title text-primary">Groot</h5>
+						</div>
+						<div class="modal fade" id="groot" tabindex="-1" role="dialog" aria-label="groot" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<img src="../img/gOTG.jpg" class="img-fluid w-100">
+									<div class="modal-body bg-dark justLikeThat">
+										<h2 class="text-info">The guardians of the galaxy</h2>
+										<p class="text-light">Para poder escapar del incansable Ronan, Quill se ve obligado a pactar una complicada tregua con un cuarteto de disparatados inadaptados: Rocket, un mapache armado con un rifle, Groot, un humanoide con forma de árbol, la letal y enigmática Gamora y el vengativo Drax the Destroyer.</p>
+										<button class="btn btn-outline-primary float-right ml-3" data-dismiss="modal" >Cerrar</button>
+										<button class="btn btn-outline-primary float-right">Ver pelicula</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card border-info">
+						<img src="../img/pokemon.jpg" id="imagenGaleria" class="card-img-top img-fluid w-100" data-toggle="modal" data-target="#pokemon">
+						<div class="card-body bg-dark">
+							<h5 class="card-title text-info">Pokemon</h5>
+						</div>
+						<div class="modal fade" id="pokemon" tabindex="-1" role="dialog" aria-label="pokemon" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<img src="../img/pokemon.jpg" class="img-fluid w-100">
+									<div class="modal-body bg-dark justLikeThat">
+										<h2 class="text-info">Pokemon</h2>
+										<p class="text-light">El Entrenador Pokémon Ash Ketchum tiene un nuevo plan: ¡recorrer el mundo! Pero antes, él y su compañero Pikachu se dirigen a la inauguración del Laboratorio Cerezo, un centro de investigación dedicado a descubrir los misterios de los Pokémon en cada región.</p>
+										<button class="btn btn-outline-info float-right ml-3" data-dismiss="modal" >Cerrar</button>
+										<button class="btn btn-outline-info float-right">Ver pelicula</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card border-info">
+						<img src="../img/dracula.jpg" id="imagenGaleria" class="card-img-top img-fluid w-100" data-toggle="modal" data-target="#dracula">
+						<div class="card-body bg-dark">
+							<h5 class="card-title text-blood">Dracula</h5>
+						</div>
+						<div class="modal fade" id="dracula" tabindex="-1" role="dialog" aria-label="dracula" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<img src="../img/dracula.jpg" class="img-fluid w-100">
+									<div class="modal-body bg-dark justLikeThat2">
+										<h2 class="text-blood">Dracula</h2>
+										<p class="text-light">Gabriel Van Helsing (Hugh Jackman) tiene un pasado maldito que no consigue recordar y una misión a la que no puede negarse. ... He aquí la misión de Van Helsing: destruir a Drácula. Anna Valerious (Kate Beckinsale) es casi la última descendiente de una poderosa familia de sangre real a la que Drácula ha ido exterminando.</p>
+										<button class="btn btn-outline-info float-right ml-3" data-dismiss="modal" >Cerrar</button>
+										<button class="btn btn-outline-info float-right">Ver pelicula</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<footer class="bg-dark">
+		<div class="container">
+			<div class="row mt-5 p-4">
+
+				<div class="col-12 col-md-4 mt-5">
+					<div class="d-flex justify-content-between flex-row">
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-facebook"></i></a>
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-instagram"></i></a>
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-youtube"></i></a>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 mt-5">
+					<div class="d-flex justify-content-center p-1">
+						<h5 class="text-light">Copyright 2020 Peliculas <span class="text-z">Z</span></h5>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 mt-5">
+					<div class="d-flex justify-content-between">
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-twitter"></i></a>
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-whatsapp"></i></a>
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-facebook-messenger"></i></a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+	
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

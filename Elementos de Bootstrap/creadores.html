@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Creadores</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/MisEstilos/peliculasZ.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/b65f887159.js" crossorigin="anonymous"></script>	
+	<style type="text/css">
+		h1,h2,h3,h4,h5,h6,a
+		{
+			font-family: 'Goldman', cursive;
+		}
+		p
+		{
+			font-family: 'Roboto', sans-serif;
+		}
+		#mas
+		{
+			border: 2px solid #06a;
+			padding-top: 10px;
+			padding-bottom: 5px;
+			background: #000;
+			color: #aaa;
+		}
+		.bg-dark, .btn-dark
+		{
+			background: #000!important;
+		}
+		.bg-secondary, .badge-secondary
+		{
+			background: #111!important;
+		}
+		.text-z
+		{
+			color: #53CEF7;
+		}
+		.justLikeThat
+		{
+			border: 1px solid #03a;
+		}
+		#hover:hover
+		{
+			background: #05a!important;
+			border: 1px solid #000!important;
+			color: #fff!important;
+		}
+		#hover:focus
+		{
+			background: #05a!important;
+			border: 1px solid #000!important;
+			color: #fff!important;
+		}
+		#navItem
+		{
+			font-size: 18px;
+			margin-left: 10px;
+		}
+		#navTitle
+		{
+			font-size: 25px;
+		}
+		.text-dark
+		{
+			color: #000!important;
+		}
+		#icon
+		{
+			font-size: 50px;
+		}
+	</style>
+</head>
+<body class="bg-secondary" data-spy="scroll" data-target="#fm-nav">
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-2 fixed-top" style="opacity: .9;">
+		<div class="container">
+
+			<a class="navbar-brand text-primary text-light">Gabriel Cáceres - Desarrollador Web</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarGabriel" aria-controls="navbarGabriel" aria-expanded="false" aria-label="menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarGabriel" id="fm-nav">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a href="#menu" id="navItem" class="nav-link">Menu</a>
+					</li>
+					<li class="nav-item">
+						<a href="#portafolio" id="navItem" class="nav-link">Portafolio</a>
+					</li>
+					<li class="nav-item">
+						<a href="#acerca" id="navItem" class="nav-link">Acerca</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contacto" id="navItem" class="nav-link">Contacto</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>	
+
+	<div id="menu" style="padding-top: 8px;"></div>
+
+	<!--Navbar-->
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3" id="menu2">
+		<div class="container">
+
+			<a href="#" id="navTitle" class="navbar-brand text-primary">Peliculas <span class="text-z">Z</span></a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a href="Cine.html" id="navItem" class="nav-link">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a href="Galeria.html" id="navItem" class="nav-link">Galería</a>
+					</li>
+					<li class="nav-item">
+						<a href="acerca.html" id="navItem" class="nav-link">Acerca</a>
+					</li>
+					<li class="nav-item">
+						<a href="contactanos.html" id="navItem" class="nav-link">Contactanos</a>
+					</li>
+					<li class="nav-item">
+						<a href="creadores.html" id="navItem" class="nav-link active">Creadores</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<header>
+		<div class="container mt-3">
+
+			<!--Carousel - slider-->
+
+			<div class="row mt-4">
+				
+				<div class="col-12 p-0">
+					<div class="carousel slide" id="carousel" data-ride="carousel">
+
+						<ol class="carousel-indicators">
+							<li data-target="#carousel" data-slide-to="0"></li>
+							<li data-target="#carousel" data-slide-to="1"></li>
+							<li data-target="#carousel" data-slide-to="2"></li>
+						</ol>
+
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="../img/wallpaper1.jpg" class="img-fluid">
+							</div>
+							<div class="carousel-item">
+								<img src="../img/wallpaper2.jpg" class="img-fluid">
+							</div>
+							<div class="carousel-item">
+								<img src="../img/wallpaper3.jpg" class="img-fluid">
+							</div>
+						</div>
+
+						<a href="#carousel" class="carousel-control-prev" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Anterior</span>
+						</a>
+
+						<a href="#carousel" class="carousel-control-next" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Siguiente</span>
+						</a>
+
+					</div>
+				</div>
+		</div>
+
+	</header>	
+
+	<div id="portafolio"></div>
+
+	<main>
+		
+		<!-- Portafolio -->
+
+		<div class="container bg-dark">
+			
+			<div class="row portafolio" style="margin-top: 70px;">
+				
+				<div class="col">
+					
+					<h2 class="text-center text-primary mt-4 mb-5">Portafolio</h2>
+
+					<div class="row galeria justify-content-center mt-4">
+						
+						<div class="col-12 col-sm-6 col-lg-4 contenedor-imagen">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="../img/galeria1.jpg" class="img-fluid imagen">
+							</a>
+						</div>
+
+						<div class="col-12 col-sm-6 col-lg-8 contenedor-imagen">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="../img/galeria2.jpg" class="img-fluid imagen">
+							</a>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-8 contenedor-imagen">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="../img/galeria3.jpg" class="img-fluid imagen">
+							</a>
+						</div>
+
+						<div class="col-12 col-sm-6 col-lg-4 contenedor-imagen">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="../img/galeria4.jpg" class="img-fluid imagen">
+							</a>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 contenedor-imagen">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="../img/galeria5.jpg" class="img-fluid imagen">
+							</a>
+						</div>
+
+						<div class="col-12 col-sm-6 col-lg-8 contenedor-imagen">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="../img/galeria6.jpg" class="img-fluid imagen">
+							</a>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-8 contenedor-imagen">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="../img/galeria7.jpg" class="img-fluid imagen">
+							</a>
+						</div>
+
+						<div class="col-12 col-sm-6 col-lg-4 contenedor-imagen">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="../img/galeria8.jpg" class="img-fluid imagen">
+							</a>
+						</div>
+
+						<!-- Ventana modal -->
+
+						<div class="modal fade" id="modal">
+							<div class="modal-dialog d-flex align-items-center justify-content-center">
+								<div class="modal-content">
+									<img src="../img/galeria1.jpg" id="imagen-modal">
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</main>
+
+	<main id="acerca">
+		
+		<div class="container mt-5 p-0">
+			
+			<!-- Acerca de -->
+
+			<div class="row acerca-de">
+				
+				<div class="col-12 col-md-5 col-lg-6 col-xl-4 p-4 ">
+					<div class="card bg-dark border-primary mt-5">
+						<div class="card-header border-primary"><h4 class="text-primary text-center">Gabriel Cáceres</h4></div>
+						<div class="card-body"><img src="../../Imagenes/Gabriel Cáceres.jpg" class="img-fluid rounded"></div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-7 col-lg-6 col-xl-8 p-4 mb-xl-5">
+					
+					<div class="card border-primary bg-dark mt-5">
+						
+						<div class="card-header border-primary">
+							<h2 class="text-primary">Acerca de...</h2>
+						</div>
+						<div class="card-body">
+							<p class="text-light">Hola, mi nombre es Gabriel Cáceres y actualmente estudio en la universidad Don Bosco teniendo como objetivo convertirme en un gran desarrollador Web. Tengo 20 años y mi jornada con la tecnologia comenzo este año, espero que las cosas sigan como van actualmente, y por lo tanto poder aprender mas.</p>
+
+							<h6 class="label text-light mt-2">HTML</h6>
+							<div class="progress mt-1 bar">
+								<div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%;">90%</div>
+							</div>
+
+							<h6 class="label text-light mt-2">CSS</h6>
+							<div class="progress mt-1 bar">
+								<div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%;">70%</div>
+							</div>
+
+							<h6 class="label text-light mt-2">Java Script</h6>
+							<div class="progress mt-1 bar">
+								<div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 20%;">20%</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</main>
+
+	<div class="jumbotron bg-dark mt-5 mb-xl-5" >
+		<div class="container ">
+			<div class="row">
+				<div class="col text-light text-center"><h2>¡Contactame!</h2></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Sección de contacto -->
+
+	<div id="contacto" class="p-xl-3"></div>
+
+	<main>
+		
+		<div class="container" id="X">
+			
+			<div class="row contacto justify-content-center">
+				
+				<div class="col-12 col-lg-8">
+					
+					<h2 class="text-center text-light mb-4">Contacto</h2>
+
+					<form action="" class="formulario">
+						
+						<div class="form-group row">
+							
+							<div class="col-12 col-md-6 mb-3"><input class="form-control bg-dark border-primary" type="text" placeholder="Nombre"></div>
+							<div class="col-12 col-md-6 mb-3"><input class="form-control bg-dark border-primary" type="email" placeholder="Email"></div>
+							<div class="col-12 mb-3"><textarea class="form-control bg-dark border-primary"></textarea></div>
+							<input type="submit" class="btn btn-outline-primary btn-block btn-lg" name="">
+
+						</div>
+
+					</form>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</main>
+
+	<footer class="bg-dark">
+		<div class="container">
+			<div class="row mt-5 p-4">
+
+				<div class="col-12 col-md-4 mt-5">
+					<div class="d-flex justify-content-between flex-row">
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-facebook"></i></a>
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-instagram"></i></a>
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-youtube"></i></a>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 mt-5">
+					<div class="d-flex justify-content-center p-1">
+						<h5 class="text-light text-center">Copyright 2020 Peliculas <span class="text-z">Z</span></h5>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 mt-5">
+					<div class="d-flex justify-content-between">
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-twitter"></i></a>
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-whatsapp"></i></a>
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-facebook-messenger"></i></a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+
+	
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/scripts.js"></script>
+</body>
+</html>

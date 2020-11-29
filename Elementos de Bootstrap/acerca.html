@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Acerca</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/MisEstilos/peliculasZ.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/b65f887159.js" crossorigin="anonymous"></script>	
+	<style type="text/css">
+		h1,h2,h3,h4,h5,h6,a
+		{
+			font-family: 'Goldman', cursive;
+		}
+		p
+		{
+			font-family: 'Roboto', sans-serif;
+		}
+		#mas
+		{
+			border: 2px solid #06a;
+			padding-top: 10px;
+			padding-bottom: 5px;
+			background: #000;
+			color: #aaa;
+		}
+		.bg-dark, .btn-dark
+		{
+			background: #000!important;
+		}
+		.bg-secondary, .badge-secondary
+		{
+			background: #111!important;
+		}
+		.text-z
+		{
+			color: #53CEF7;
+		}
+		.justLikeThat
+		{
+			border: 1px solid #03a;
+		}
+		#hover:hover
+		{
+			background: #05a!important;
+			border: 1px solid #000!important;
+			color: #fff!important;
+		}
+		#hover:focus
+		{
+			background: #05a!important;
+			border: 1px solid #000!important;
+			color: #fff!important;
+		}
+		#navItem
+		{
+			font-size: 18px;
+			margin-left: 10px;
+		}
+		#navTitle
+		{
+			font-size: 25px;
+		}
+		#icon
+		{
+			font-size: 50px;
+		}
+	</style>
+</head>
+<body class="bg-secondary">
+
+	<!--Navbar-->
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+		<div class="container">
+
+			<a href="#" id="navTitle" class="navbar-brand text-primary">Peliculas <span class="text-z">Z</span></a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a href="Cine.html" id="navItem" class="nav-link">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a href="Galeria.html" id="navItem" class="nav-link">Galería</a>
+					</li>
+					<li class="nav-item">
+						<a href="acerca.html" id="navItem" class="nav-link active">Acerca</a>
+					</li>
+					<li class="nav-item">
+						<a href="contactanos.html" id="navItem" class="nav-link">Contactanos</a>
+					</li>
+					<li class="nav-item">
+						<a href="creadores.html" id="navItem" class="nav-link">Creadores</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<div class="container">
+		
+		<section class="row mt-5">
+			
+			<div class="col-12 col-lg-6">
+				<div class="card border-primary">
+					<div class="card-header bg-dark border-primary">
+						<h3 class="text-primary">Los inicios de peliculas <span class="text-z">Z</span></h3>
+					</div>
+					<div class="card-body bg-dark">
+						<p class="text-light">Todo comenzó cuando yo y mi hermano Chester estabamos viendo una pelicula en Netflix, era una pelicula vastante mala, y mi hermano me dijo: "es una lastima que el 80% de peliculas en Netflix sean una basura".</p>
+						<p class="text-light">Entonces fue ahí cuando se me ocurrio una idea. Porque no creamos un sitio web similar a Netflix pero con una simple diferencia la cual es que este sitio web tendra solo y unicamente peliculas epicas, emocionante y de un nivel audio visual increible. Mi hermano me observó, me sonrio y me dijo, me parece una perfecta idea Gabriel, ya que ambos estudiamos ciencias de la computación, porque no rapresentar todos nuestros conocimientos en este sitio web, y fue ahí cuando lo creamos. </p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-6 mt-3 d-flex align-items-lg-center">
+				<div class="carousel slide" id="principal-carousel" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#principal-carousel" data-slid-to="0" class="active"></li>
+						<li data-target="#principal-carousel" data-slid-to="1"></li>
+						<li data-target="#principal-carousel" data-slid-to="2"></li>
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="../img/netflix.jpg" class="w-100 img-fluid" alt="">
+						</div>
+						<div class="carousel-item">
+							<img src="../img/idea.jpg" alt="" class="w-100 img-fluid">
+						</div>
+						<div class="carousel-item">
+							<img src="../img/epic.jpg" alt="" class="w-100 img-fluid">
+						</div>
+					</div>
+
+					<a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span>
+					</a>
+
+					<a href="#principal-carousel" class="carousel-control-next" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Siguiente</span>
+					</a>
+				</div>
+			</div>
+
+		</section>
+
+	</div>
+
+	<div class="jumbotron bg-dark mt-5">
+		<div class="container">
+			<section class="row">
+				<div class="col-12"><h2 class="text-center text-primary">Un poco mas de nosotros...</h2></div>
+			</section>
+		</div>
+	</div>
+
+	<div class="container">
+		<section class="row mt-5">
+			<div class="col-6 d-none d-lg-block">
+				<div class="list-group" id="lista" role="tablist">
+					<a class="list-group-item list-group-item-action active bg-dark text-primary" data-toggle="list" href="#elemento1" role="tab" aria-controls="elemento1">Solamente hay peliculas <span class="text-z">EPICAS</span></a>
+					<a class="list-group-item list-group-item-action bg-dark text-primary" data-toggle="list" href="#elemento2" role="tab" aria-controls="elemento2">Resolución audiovisual increible</a>
+					<a class="list-group-item list-group-item-action bg-dark text-primary" data-toggle="list" href="#elemento3" role="tab" aria-controls="elemento3">Calidad de diseño en nuestro sitio Web</a>
+					<a class="list-group-item list-group-item-action bg-dark text-primary" data-toggle="list" href="#elemento4" role="tab" aria-controls="elemento4">Sitio web ultra responsive</a>
+				</div>
+			</div>
+
+			<div class="col-6 d-none d-lg-block">
+				<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade show active bg-dark p-3 text-light justLikeThat" id="elemento1" role="tabpanel" aria-labelledby="elemento1">
+						<h5 class="text-primary">Solamente hay peliculas <span class="text-z">EPICAS</span></h5>
+						<p class="mb-0">Es una afirmación vastante relativa, debido a que una pelicula considerada epica para mi, puede ser aburrida o de mala calidad para tí, es por eso que nosotros nos basamos en las criticas de profesionales para escoger las mejores peliculas.</p>
+					</div>
+					<div class="tab-pane fade show bg-dark p-3 text-light justLikeThat" id="elemento2" role="tabpanel" aria-labelledby="elemento2">
+						<h5 class="text-primary">Resolución audiovisual increible</h5>
+						<p class="mb-0">Nos engargamos de que la resolución de las peliculas que mostamos sea increible, para que la experiencia valga realmente la pena.</p>
+					</div>
+					<div class="tab-pane fade show bg-dark p-3 text-light justLikeThat" id="elemento3" role="tabpanel" aria-labelledby="elemento3">
+						<h5 class="text-primary">Calidad de diseño en nuestro sitio Web</h5>
+						<p class="mb-0">Seguramente una de las cosas mas importantes de este sitio web, es su diseño, basicamente todo esto fue creado gracias a Bootstrap 4 el framework mas importante en todo el web styling.</p>
+					</div>
+					<div class="tab-pane fade show bg-dark p-3 text-light justLikeThat" id="elemento4" role="tabpanel" aria-labelledby="elemento4">
+						<h5 class="text-primary">Sitio web ultra responsive</h5>
+						<p class="mb-0">Por supuesto este sitio web es disponible en todo tipo de dispositivo, desde computadoras o televisores, hasta telefonos celulares como el Iphone XII o el Samsung Galaxy H4.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 d-block d-lg-none">
+				<p>
+					<h2><a class="btn btn-block btn-lg border-primary bg-dark " id="hover" href="#bloque3" data-toggle="collapse" rol="button" aria-expanded="false" aria-controls="bloque3">Solamente hay peliculas <span class="text-z">EPICAS</span></a></h2>
+				</p>
+				<div class="collapse" id="bloque3">
+					<div class="card border-primary text-light">
+						<div class="card-body bg-dark">
+							<p class="mb-0">Es una afirmación vastante relativa, debido a que una pelicula considerada epica para mi, puede ser aburrida o de mala calidad para tí, es por eso que nosotros nos basamos en las criticas de profesionales para escoger las mejores peliculas.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 d-block d-lg-none">
+				<p>
+					<h2><a class="btn btn-block btn-lg border-primary bg-dark " id="hover" href="#bloque4" data-toggle="collapse" rol="button" aria-expanded="false" aria-controls="bloque4">Resolución audiovisual increible</a></h2>
+				</p>
+				<div class="collapse" id="bloque4">
+					<div class="card border-primary text-light">
+						<div class="card-body bg-dark">
+							<p class="mb-0">Nos engargamos de que la resolución de las peliculas que mostamos sea increible, para que la experiencia valga realmente la pena.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 d-block d-lg-none">
+				<p>
+					<h2><a class="btn btn-block btn-lg border-primary bg-dark " id="hover" href="#bloque5" data-toggle="collapse" rol="button" aria-expanded="false" aria-controls="bloque5">Calidad de diseño en nuestro sitio Web</a></h2>
+				</p>
+				<div class="collapse" id="bloque5">
+					<div class="card border-primary text-light">
+						<div class="card-body bg-dark">
+							<p class="mb-0">Seguramente una de las cosas mas importantes de este sitio web, es su diseño, basicamente todo esto fue creado gracias a Bootstrap 4 el framework mas importante en todo el web styling.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 d-block d-lg-none">
+				<p>
+					<h2><a class="btn btn-block btn-lg border-primary bg-dark p-2" id="hover" href="#bloque6" data-toggle="collapse" rol="button" aria-expanded="false" aria-controls="bloque6">Sitio web ultra responsive</a></h2>
+				</p>
+				<div class="collapse" id="bloque6">
+					<div class="card border-primary text-light">
+						<div class="card-body bg-dark">
+							<p class="mb-0">Por supuesto este sitio web es disponible en todo tipo de dispositivo, desde computadoras o televisores, hasta telefonos celulares como el Iphone XII o el Samsung Galaxy H4.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<section class="row">
+			
+			<div class="col-12 col-lg-6 mt-5">
+				<div class="card border-primary">
+					<div class="card-header bg-dark border-primary">
+						<h2 class="text-primary">Nuestra visiòn</h2>
+					</div>
+					<div class="card-body bg-dark">
+						<p class="text-light">Nuestra visiòn es un sitio web capaz, de proporcionar a la gente un servicio de calidad, a traves de peliculas epicas, resoluciòn audio visual 4k UHD y un web design con calidad excelente. Una vez hecho eso, nos gustaria poder seguir creciendo sin limite, para poder mejorar de forma constante. Ademàs informar que si el proposito del usuario es aprender, puede seguir nuestros cursos de Web Styling en el sitio web de aprendizaje actual Udemy.</p>
+						<div class="row">
+							<div class="col-12">
+								<img src="../img/vision.jpg" class="img-fluid w-100">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-lg-6 mt-5">
+				<div class="card border-primary">
+					<div class="card-header bg-dark border-primary">
+						<h2 class="text-primary">Nuestra Misiòn</h2>
+					</div>
+					<div class="card-body bg-dark">
+						<p class="text-light">Nuestra misiòn es mantener la calidad, y el buen servicio mejorandolo sin limite, para que el usuario pueda disfrutar de una experiencia cada vez que utilize nuestro servicio, claro hay un limite, debido a que los servicios de este sitio web opinamos que el fin es entretener y enseñar, pero si el objetivo del usuario es realmente aprender, nosotros tenemos unos cursos en Udemy, explicando como realizar un buen Web styling con Bootstrap 4.</p>
+						<div class="row">
+							<div class="col-12">
+								<img src="../img/mision.jpg" class="img-fluid w-100">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<section class="row justify-content-center d-flex mt-5">
+			<div class="col-12 col-lg-8">
+				<div class="card border-primary">
+					<div class="card-header bg-dark text-primary border-primary"><h2>Udemy</h2></div>
+					<div class="card-body bg-dark">
+						<p class="text-light">Si buscas cursos para aprender a programar en HTML 5, CSS y el framework mas importante en todo el WebStyling Bootstrap 4, puedes dirigirte a la plataforma sitio web Udemy, en donde una vez ahi, podras navegar en un oceano de cursos muy buenos sobre cualquier tipo de materia. Como mencionamos si deseas aprender Web Styling nosotros BlueFireBrothers tenemos un curso de Bootstrap 4, aunque ademàs de recomendarte nuestro te recomendamos 2 cursos 1 de Bootastrap 4 y otro que trae un paquete con HTML 5, CSS 3, Javascript, Jquery y mas. Estos 2 cursos fueron creados por el programador Carlos Arturo o conocido como FalconMasters, echale un vistazo y adentremonos mas a fondo hacia la epoca de la informaciòn.</p>
+						<div class="row justify-content-center">
+							<div class="col-10">
+								<img src="../img/udemy.png" class="img-fluid w-100">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+	<div class="jumbotron bg-dark mt-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12"><h2 class="text-center text-primary">El futuro del Web Design</h2></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-12">
+				<div class="card border-primary">
+					<div class="card-header bg-dark border-primary">
+						<h4 class="text-primary">La evoluciòn del web Design mediante el futuro.</h4>
+					</div>
+					<div class="card-body bg-dark text-light">
+						<p>Como conclusiòn nos gustaria compartir nuestra opinion sobre el futuro de peliculas <span class="text-z">Z</span> y el Web design la cual es:</p>
+						<p>Los tiempos estan cambiando. Solo han pasado 9 años desde el primer lanzamiento del FrameWork mas importante de el Web Design es decir Bootstrap, y ya vamos por su quinta version, si las cosas prosiguen con este ritmo, definitivamente para el 2050 la tecnologia realizara azañas increibles. Por ejemplo el aprendizaje de las ciencias de la computaciòn se convertira en algo extremadamente rapido es decir que los jovenes programadores aprenderan muchisimas herramientas con las cuales podran crear maravillas tecnologicas en cuestion de poco tiempo, lo cual es excelente ya que es la representaciòn del poder de la tecnologia, opinamos que prosigamos en nuesta jornada de aprendizaje y continuemos en esta trayectoria la cual los hechos nos estan demostrando que vamos por un buen camino.</p>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+
+		<div class="row mt-5 justify-content-center">
+			<div class="col-12 col-lg-6">
+
+				<form action="" class="formComentarios d-flex justify-content-end flex-wrap">
+					<textarea name="" id="" placeholder="Comentario"></textarea>
+					<button class="btn btn-outline-primary" type="button">Comentar</button>
+				</form>
+
+				<div class="media mt-5">
+					<img src="../img/person1.jpg" width="64" height="64">
+					<div class="media-body">
+						<p class=" ml-4 nombre text-primary">John Doe <span class="small ml-2 text-info">7:51, Hoy</span></p>
+						<p class="text-light ml-4">Me parece un excelente trabajo, bien hecho, me pregunto como sera bootstrap 6, o en general como seran los lenguajes de programación en el futuro.</p>
+						<div class="text-right">
+							<a href="#" class="ml-3 botonesA">Responder</a>
+							<a href="#" class="ml-3 botonesA">Enviar</a>
+							<a href="#" class="ml-3 botonesA">Borrar</a>
+						</div>
+
+						<div class="media mt-5">
+							<img src="../img/person2.jpg" width="64" height="64">
+							<div class="media-body">
+								<p class=" ml-4 nombre text-primary">Anna Liz <span class="small ml-2 text-info">9:54, Hoy</span></p>
+								<p class="text-light ml-4">Hola John. Comparto tu opinion respecto a este sitio web. Del otro lado con tu pregunta de Bootstrap 6, te sugiero de practicar web Styling así podras responder tu pregunta.</p>
+								<div class="text-right">
+									<a href="#" class="ml-3 botonesA">Responder</a>
+									<a href="#" class="ml-3 botonesA">Enviar</a>
+									<a href="#" class="ml-3 botonesA">Borrar</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="media mt-5">
+							<img src="../img/person3.jpg" width="64" height="64">
+							<div class="media-body">
+								<p class=" ml-4 nombre text-primary">Eva Robinson<span class="small ml-2 text-info">11:51, Hoy</span></p>
+								<p class="text-light ml-4">Hola John. Estoy en una situación similar a la tuya, dado que no solo pienso lo mismo que tu respecto a este sitio web sino que tambien me hago las mismas preguntas respecto al futuro de la programación.</p>
+								<div class="text-right">
+									<a href="#" class="ml-3 botonesA">Responder</a>
+									<a href="#" class="ml-3 botonesA">Enviar</a>
+									<a href="#" class="ml-3 botonesA">Borrar</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="media mt-5">
+							<img src="../img/person4.jpg" width="64" height="64">
+							<div class="media-body">
+								<p class=" ml-4 nombre text-primary">Trevor Bolton<span class="small ml-2 text-info">16:40, Hoy</span></p>
+								<p class="text-light ml-4">Que bueno que les ha gustado este sitio web, como dijeron los creadores de este, si seguimos en esta dirección todo marchara, bien, aunque claro, eso no implica que nuestra sociedad no tenga problemas hoy en dia.</p>
+								<div class="text-right">
+									<a href="#" class="ml-3 botonesA">Responder</a>
+									<a href="#" class="ml-3 botonesA">Enviar</a>
+									<a href="#" class="ml-3 botonesA">Borrar</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<footer class="bg-dark">
+		<div class="container">
+			<div class="row mt-5 p-4">
+
+				<div class="col-12 col-md-4 mt-5">
+					<div class="d-flex justify-content-between flex-row">
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-facebook"></i></a>
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-instagram"></i></a>
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-youtube"></i></a>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 mt-5">
+					<div class="d-flex justify-content-center p-1">
+						<h5 class="text-light text-center">Copyright 2020 Peliculas <span class="text-z">Z</span></h5>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 mt-5">
+					<div class="d-flex justify-content-between">
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-twitter"></i></a>
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-whatsapp"></i></a>
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-facebook-messenger"></i></a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+
+	
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

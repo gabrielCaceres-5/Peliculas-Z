@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Index</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/b65f887159.js" crossorigin="anonymous"></script>	
+	<style type="text/css">
+		h1,h2,h3,h4,h5,h6,a
+		{
+			font-family: 'Goldman', cursive;
+		}
+		p
+		{
+			font-family: 'Roboto', sans-serif;
+		}
+		#mas
+		{
+			border: 2px solid #06a;
+			padding-top: 10px;
+			padding-bottom: 5px;
+			background: #000;
+			color: #aaa;
+		}
+		.bg-dark, .btn-dark
+		{
+			background: #000!important;
+		}
+		.bg-secondary, .badge-secondary
+		{
+			background: #111!important;
+		}
+		.text-z
+		{
+			color: #53CEF7;
+		}
+		.justLikeThat
+		{
+			border: 1px solid #03a;
+		}
+		#hover:hover
+		{
+			background: #05a!important;
+			border: 1px solid #000!important;
+			color: #fff!important;
+		}
+		#hover:focus
+		{
+			background: #05a!important;
+			border: 1px solid #000!important;
+			color: #fff!important;
+		}
+		#navItem
+		{
+			font-size: 18px;
+			margin-left: 10px;
+		}
+		#navTitle
+		{
+			font-size: 25px;
+		}
+		#icon
+		{
+			font-size: 50px;
+		}
+	</style>
+</head>
+<body class="bg-secondary">
+
+	<!--Navbar-->
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+		<div class="container">
+
+			<a href="#" id="navTitle" class="navbar-brand text-primary">Peliculas <span class="text-z">Z</span></a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a href="Cine.html" id="navItem" class="nav-link active">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a href="Galeria.html" id="navItem" class="nav-link">Galería</a>
+					</li>
+					<li class="nav-item">
+						<a href="acerca.html" id="navItem" class="nav-link">Acerca</a>
+					</li>
+					<li class="nav-item">
+						<a href="contactanos.html" id="navItem" class="nav-link">Contactanos</a>
+					</li>
+					<li class="nav-item">
+						<a href="creadores.html" id="navItem" class="nav-link">Creadores</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<div class="container">
+
+		<div class="row no-gutters">
+			<div class="col-12 mt-3">
+				<div class="carousel slide" id="principal-carousel" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#principal-carousel" data-slid-to="0" class="active"></li>
+						<li data-target="#principal-carousel" data-slid-to="1"></li>
+						<li data-target="#principal-carousel" data-slid-to="2"></li>
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="carousel-caption d-block">
+								<h4>Thor - Ragnarok</h4>
+							</div>
+							<img src="../img/movie1.jpg" class="w-100 img-fluid" alt="">
+						</div>
+						<div class="carousel-item">
+							<div class="carousel-caption d-block">
+								<h4>Eragon - The ice dragon</h4>
+							</div>
+							<img src="../img/movie2.jpg" alt="" class="w-100 img-fluid">
+						</div>
+						<div class="carousel-item">
+							<div class="carousel-caption">
+								<h4>Star Wars III - The revenge of the sith</h4>
+							</div>
+							<img src="../img/movie3.jpg" alt="" class="w-100 img-fluid">
+						</div>
+					</div>
+
+					<a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span>
+					</a>
+
+					<a href="#principal-carousel" class="carousel-control-next" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Siguiente</span>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<section class="row mt-3 no-gutters">
+			
+			<div class="col-12 mt-3 mb-1">
+				<div id="accordion">
+					<div class="card border-primary">
+						<div class="card-header bg-dark border-primary" id="heading1">
+							<button class="btn btn-outline-primary" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+								<h4 class="mb-1">Bienvenida</h4>
+							</button>
+						</div>
+						<div id="collapse1" class="collapse" arial-labelledby="heading1" data-parent="#accordion">
+							<div class="card-body bg-primary text-light bg-dark">
+								<p class="mb-0">Este es el sitio Web oficial de peliculas z. En este sitio web podras, contactarnos, ver acerca de nosotros, conocernos mejor, observar nuestra mitica galeria de peliculas y ¡MUCHO MAS!. ¡Te recordamos que es un gusto para nosotros tenerte aquí y esperamos que disfrutes y puedas ver lo mejor de este maravilloso sitio web! Además tenemos una variedad estilos en la cual usted podra disfrutar de las mejores peliculas, asi que... ¡exploremos juntos!
+								<div class="row no-gutters">
+									<div class="col-12">
+										<img src="../img/img.jpg" class="img-fluid w-100 mt-3">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<div class="jumbotron mt-3 mb-3 bg-dark">
+		<div class="container">
+			<section class="row">
+				<div class="col-12 mt-4">
+					<h2 class="display-5 text-primary mt-0">Calidad increible</h2>
+					<p class="text-light">Si se estan preguntando, porque la calidad de este cine es tan extraordinaria pues permitanme explicarles nuestras "pantallas 4K son pantallas con resolución 4K. Esto significa que la pantalla tiene 3840 píxeles horizontales y 2160 píxeles verticales, lo que representa un total de aproximadamente 8.3 millones de píxeles. En las especificaciones de las pantallas, las resoluciones generalmente se muestran como “3840 x 2160” para pantallas 4K". (SAMSUNG ¿what is 4k tv?)</p>
+					<p class="text-light">"La resolución es un término que indica con qué densidad se juntan los píxeles (estos puntos diminutos) en la pantalla. Los píxeles individuales se juntan para formar la imagen que ves en la pantalla, de modo que cuanto más alto sea el recuento de píxeles, mayor será la resolución. La letra “K” de 4K es por Kilo (1000), lo que significa que es un televisor que ha logrado una resolución horizontal de aproximadamente 4000 píxeles". (SAMSUNG ¿what is 4k tv?)</p>
+					<div>
+						<a href="https://www.samsung.com/latin/tvs/tv-buying-guide/what-is-4k-tv/" target="a_blank" class="btn btn-outline-primary btn-lg float-right">Leer mas</a>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<div class="container">
+		<section class="row">
+
+			<div class="col-12 col-md-6 ">
+				<p>
+					<h2><a class="btn bg-dark btn-block btn-lg border-primary" id="hover" href="#bloque1" data-toggle="collapse" rol="button" aria-expanded="false" aria-controls="bloque1">Que tiene peliculas <strong class="text-z">Z</strong></a></h2>
+				</p>
+				<div class="collapse" id="bloque1">
+					<div class="card border-primary text-light">
+						<div class="card-header bg-dark border-primary">
+							<h6 class="mb-1">Las peliculas mas epicas de todos los tiempos.</h6>
+						</div>
+						<div class="card-body bg-dark">
+							<p class="mb-0">Disfruta de las peliculas mas epicas en la mejor resolución a nivel mundial con definición de 4k y habitaciones con pantallas curvas.</p>
+							<div class="row no-gutters">
+								<div class="col-12">
+									<img src="../img/img2.jpg" class="img-fluid w-100 mt-3">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6">
+				<p>
+					<h2><a class="btn btn-block btn-lg border-primary bg-dark " id="hover" href="#bloque2" data-toggle="collapse" rol="button" aria-expanded="false" aria-controls="bloque2">La calidad de la emoción</a></h2>
+				</p>
+				<div class="collapse" id="bloque2">
+					<div class="card border-primary text-light">
+						<div class="card-header bg-dark border-primary">
+							<h6 class="mb-1">La experiencia en peliculas <strong class="text-z">Z</strong> es unica.</h6>
+						</div>
+						<div class="card-body bg-dark">
+							<p class="mb-0">En este cine, podras vivir una experiencia, ¿porque?, pues permiteme mencionarte como el sonido, la resolución y definición de las peliculas te llevan a la pelicula.</p>
+							<div class="row no-gutters">
+								<div class="col-12">
+									<img src="../img/img3.jpg" class="img-fluid w-100 mt-3">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+	</div>
+
+	<div class="jumbotron bg-dark mb-md-5 mb-0 mt-3">
+		<div class="container">
+			<div class="col-12 text-center bg-dark"><h3 class="text-primary">Leer y descubrir màs</h3></div>
+		</div>
+	</div>
+
+	<div class="container">
+		<section class="row">
+			<div class="col-6 d-none d-md-block">
+				<div class="list-group" id="lista" role="tablist">
+					<a class="list-group-item list-group-item-action active bg-dark text-primary" data-toggle="list" href="#elemento1" role="tab" aria-controls="elemento1">¿Conseguiremos pantallas 8k?</a>
+					<a class="list-group-item list-group-item-action bg-dark text-primary" data-toggle="list" href="#elemento2" role="tab" aria-controls="elemento2">¿Hemos optado a conseguir pantallas QLED?</a>
+					<a class="list-group-item list-group-item-action bg-dark text-primary" data-toggle="list" href="#elemento3" role="tab" aria-controls="elemento3">¿Nuestras pantallas son UHD 4k SAMSUNG?</a>
+					<a class="list-group-item list-group-item-action bg-dark text-primary" data-toggle="list" href="#elemento4" role="tab" aria-controls="elemento4">¿Tendremos pantallas QLED Samsung nuevas?</a>
+				</div>
+			</div>
+
+			<div class="col-6 d-none d-md-block">
+				<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade show active bg-dark p-3 text-light justLikeThat" id="elemento1" role="tabpanel" aria-labelledby="elemento1">
+						<h5 class="text-primary">¿Conseguiremos pantallas 8k?</h5>
+						<p class="mb-0">Un televisor 8K es un televisor que posee una pantalla con 7680 píxeles horizontales y 4320 píxeles verticales para un total de aproximadamente 33 millones de píxeles. La letra “K” de 8K representa la palabra Kilo (1000), lo que significa que es un televisor que ha logrado una resolución horizontal de aproximadamente 8000 píxeles. Así que si definitivamente las conseguiremos, es el promximo nivel.</p>
+					</div>
+					<div class="tab-pane fade show bg-dark p-3 text-light justLikeThat" id="elemento2" role="tabpanel" aria-labelledby="elemento2">
+						<h5 class="text-primary">¿Hemos optado a conseguir pantallas QLED?</h5>
+						<p class="mb-0">Un televisor QLED es un televisor con una base de puntos cuánticos, y el material de punto cuántico es lo que hace que los televisores QLED sean diferentes a los convencionales. Por lo tanto si hemos optado a eso.</p>
+					</div>
+					<div class="tab-pane fade show bg-dark p-3 text-light justLikeThat" id="elemento3" role="tabpanel" aria-labelledby="elemento3">
+						<h5 class="text-primary">¿Nuestras pantallas son UHD 4k SAMSUNG?</h5>
+						<p class="mb-0">Nuestras pantallas son UHD 4k Samsung, debido a que tienen la calidad 4k y 8k (que muy pronto vamos a conseguir). Asi que si, son nuestras pantallas son UHD 4k SAMSUNG.</p>
+					</div>
+					<div class="tab-pane fade show bg-dark p-3 text-light justLikeThat" id="elemento4" role="tabpanel" aria-labelledby="elemento4">
+						<h5 class="text-primary" >¿Tendremos pantallas QLED Samsung nuevas?</h5>
+						<p class="mb-0">Definitivamente hemos optado a eso, pero primero hay que conseguir pantallas curvas 8k para pasar al siguiente nivel y tener una calidad de resolución visual excelente, una vez echo eso, podremos conseguir pantallas curvas 8k UHD QLED Samsung.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 d-block d-md-none">
+				<p>
+					<h2><a class="btn btn-block btn-lg border-primary bg-dark " id="hover" href="#bloque3" data-toggle="collapse" rol="button" aria-expanded="false" aria-controls="bloque3">¿Conseguiremos pantallas 8k?</a></h2>
+				</p>
+				<div class="collapse" id="bloque3">
+					<div class="card border-primary text-light">
+						<div class="card-body bg-dark">
+							<p class="mb-0">Un televisor 8K es un televisor que posee una pantalla con 7680 píxeles horizontales y 4320 píxeles verticales para un total de aproximadamente 33 millones de píxeles. La letra “K” de 8K representa la palabra Kilo (1000), lo que significa que es un televisor que ha logrado una resolución horizontal de aproximadamente 8000 píxeles. Así que si definitivamente las conseguiremos, es el promximo nivel.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 d-block d-md-none">
+				<p>
+					<h2><a class="btn btn-block btn-lg border-primary bg-dark " id="hover" href="#bloque4" data-toggle="collapse" rol="button" aria-expanded="false" aria-controls="bloque4">¿Hemos optado a conseguir pantallas QLED?</a></h2>
+				</p>
+				<div class="collapse" id="bloque4">
+					<div class="card border-primary text-light">
+						<div class="card-body bg-dark">
+							<p class="mb-0">Un televisor QLED es un televisor con una base de puntos cuánticos, y el material de punto cuántico es lo que hace que los televisores QLED sean diferentes a los convencionales. Por lo tanto si hemos optado a eso.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 d-block d-md-none">
+				<p>
+					<h2><a class="btn btn-block btn-lg border-primary bg-dark " id="hover" href="#bloque5" data-toggle="collapse" rol="button" aria-expanded="false" aria-controls="bloque5">¿Nuestras pantallas son UHD 4k SAMSUNG?</a></h2>
+				</p>
+				<div class="collapse" id="bloque5">
+					<div class="card border-primary text-light">
+						<div class="card-body bg-dark">
+							<p class="mb-0">Nuestras pantallas son UHD 4k Samsung, debido a que tienen la calidad 4k y 8k (que muy pronto vamos a conseguir). Asi que si, son nuestras pantallas son UHD 4k SAMSUNG.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 d-block d-md-none">
+				<p>
+					<h2><a class="btn btn-block btn-lg border-primary bg-dark p-2" id="hover" href="#bloque6" data-toggle="collapse" rol="button" aria-expanded="false" aria-controls="bloque6">¿Tendremos pantallas QLED Samsung nuevas?</a></h2>
+				</p>
+				<div class="collapse" id="bloque6">
+					<div class="card border-primary text-light">
+						<div class="card-body bg-dark">
+							<p class="mb-0">Definitivamente hemos optado a eso, pero primero hay que conseguir pantallas curvas 8k para pasar al siguiente nivel y tener una calidad de resolución visual excelente, una vez echo eso, podremos conseguir pantallas curvas 8k UHD QLED Samsung.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+	</div>
+
+	<footer class="bg-dark">
+		<div class="container">
+			<div class="row mt-5 p-4">
+
+				<div class="col-12 col-md-4 mt-5">
+					<div class="d-flex justify-content-between flex-row">
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-facebook"></i></a>
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-instagram"></i></a>
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-youtube"></i></a>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 mt-5">
+					<div class="d-flex justify-content-center p-1">
+						<h5 class="text-light">Copyright 2020 Peliculas <span class="text-z">Z</span></h5>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 mt-5">
+					<div class="d-flex justify-content-between">
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-twitter"></i></a>
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-whatsapp"></i></a>
+						<a href="https://www.facebook.com/"><i id="icon" class="fab fa-facebook-messenger"></i></a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+	
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
